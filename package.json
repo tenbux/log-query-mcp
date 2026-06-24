@@ -1,0 +1,17 @@
+{
+  "name": "log-query-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for querying Discord and Twitch/Chatty chat logs",
+  "main": "mcp-server.js",
+  "scripts": {
+    "start": "node mcp-server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  },
+  "keywords": ["mcp", "discord", "twitch", "chatty", "logs"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
